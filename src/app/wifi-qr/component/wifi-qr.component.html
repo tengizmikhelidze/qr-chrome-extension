@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <div class="input-wrapper ssid-wrapper">
+    <label for="ssid">ssid</label>
+    <input id="ssid"  [(ngModel)]="ssid" (ngModelChange)="wifiQrGenerator()">
+  </div>
+  <div class="input-wrapper password-wrapper">
+    <label for="wifi-password">password</label>
+    <input id="wifi-password" type="password" [(ngModel)]="password" (ngModelChange)="wifiQrGenerator()">
+  </div>
+</div>
