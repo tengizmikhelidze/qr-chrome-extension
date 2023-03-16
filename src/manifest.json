@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "QR Generator",
+  "description": "free QR generator",
   "version": "1.0.0",
-  "permissions": ["activeTab"],
   "action": {
     "default_popup": "index.html",
     "default_title": "QR Generator",
@@ -12,5 +12,11 @@
     "http://*/*",
     "https://*/*",
     "*://*/*"
-  ]
+  ],
+  "icons": {
+    "16": "favicon.png",
+    "32": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  }
 }
